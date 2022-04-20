@@ -3,7 +3,6 @@ const {get, set} = require('./src/db/redis')
 const {access} = require('./src/utils/log');
 const handleBlogRouter = require('./src/router/blog');
 const handleUserRouter = require('./src/router/user');
-const Console = require("console");
 
 // 获取cookie过期时间
 const getCookieExpires = () => {
